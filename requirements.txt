@@ -1,0 +1,26 @@
+# =============================================================================
+# Smart India Hackathon (SIH) - Landslide Early Warning System (EWS)
+# Problem Statement ID: SIH26001 | Ministry of Development of North Eastern Region (MDoNER)
+# Project Dependencies & Runtime Specifications
+# =============================================================================
+
+# Core Web Framework & Interactive UI
+streamlit>=1.35.0,<=1.63.0
+
+# 3D Geospatial & WebGL Visualization Engines
+pydeck>=0.9.0
+plotly>=6.0.0
+
+# Numerical Computing & Data Processing
+numpy>=1.26.0
+pandas>=2.2.0
+
+# Image Processing & Binary GPS EXIF Parsing
+Pillow>=10.3.0
+
+# High-Performance HTTP Ingestion & APIs
+requests>=2.31.0
+
+# GIS Mapping & Leaflet Integration (Optional / Legacy Components)
+folium>=0.17.0
+streamlit-folium>=0.23.0
